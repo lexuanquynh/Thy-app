@@ -14,6 +14,8 @@
 		C638708A2B3193E500474E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63870892B3193E500474E08 /* Assets.xcassets */; };
 		C638708D2B3193E500474E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C638708B2B3193E500474E08 /* LaunchScreen.storyboard */; };
 		C6636BCA2B3E7544007682AF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C6636BC92B3E7544007682AF /* IQKeyboardManagerSwift */; };
+		C6636BCE2B3E76A4007682AF /* CalcualtorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6636BCC2B3E76A4007682AF /* CalcualtorViewController.swift */; };
+		C6636BCF2B3E76A4007682AF /* CalcualtorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6636BCD2B3E76A4007682AF /* CalcualtorViewController.xib */; };
 		C66D46202B341F080082E0CD /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66D461F2B341F080082E0CD /* UIView+Ex.swift */; };
 		C66D46242B3427B60082E0CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66D46222B3427B60082E0CD /* LoginViewController.swift */; };
 		C66D46252B3427B60082E0CD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C66D46232B3427B60082E0CD /* LoginViewController.xib */; };
@@ -28,6 +30,8 @@
 		C63870892B3193E500474E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C638708C2B3193E500474E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C638708E2B3193E500474E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6636BCC2B3E76A4007682AF /* CalcualtorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcualtorViewController.swift; sourceTree = "<group>"; };
+		C6636BCD2B3E76A4007682AF /* CalcualtorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalcualtorViewController.xib; sourceTree = "<group>"; };
 		C66D461F2B341F080082E0CD /* UIView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ex.swift"; sourceTree = "<group>"; };
 		C66D46222B3427B60082E0CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C66D46232B3427B60082E0CD /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 		C638707F2B3193E100474E08 /* ThyApp */ = {
 			isa = PBXGroup;
 			children = (
+				C6636BCB2B3E767A007682AF /* Calculator */,
 				C66D46212B3427A50082E0CD /* Login */,
 				C63870802B3193E100474E08 /* AppDelegate.swift */,
 				C63870822B3193E100474E08 /* SceneDelegate.swift */,
@@ -75,6 +80,15 @@
 				C66D461F2B341F080082E0CD /* UIView+Ex.swift */,
 			);
 			path = ThyApp;
+			sourceTree = "<group>";
+		};
+		C6636BCB2B3E767A007682AF /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				C6636BCC2B3E76A4007682AF /* CalcualtorViewController.swift */,
+				C6636BCD2B3E76A4007682AF /* CalcualtorViewController.xib */,
+			);
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 		C66D46212B3427A50082E0CD /* Login */ = {
@@ -153,6 +167,7 @@
 				C66D46252B3427B60082E0CD /* LoginViewController.xib in Resources */,
 				C638708D2B3193E500474E08 /* LaunchScreen.storyboard in Resources */,
 				C638708A2B3193E500474E08 /* Assets.xcassets in Resources */,
+				C6636BCF2B3E76A4007682AF /* CalcualtorViewController.xib in Resources */,
 				C63870882B3193E100474E08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6636BCE2B3E76A4007682AF /* CalcualtorViewController.swift in Sources */,
 				C63870852B3193E100474E08 /* ViewController.swift in Sources */,
 				C63870812B3193E100474E08 /* AppDelegate.swift in Sources */,
 				C63870832B3193E100474E08 /* SceneDelegate.swift in Sources */,
