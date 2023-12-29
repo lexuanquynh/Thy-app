@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -22,11 +23,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
         let loginViewController = LoginViewController()
         window.rootViewController = loginViewController
+
+        setupKeyboardManager()
+
         window.makeKeyAndVisible()
-
-
     }
 
+    private func setupKeyboardManager() {
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        IQKeyboardManager.shared.enableAutoToolbar = false
+    }
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
