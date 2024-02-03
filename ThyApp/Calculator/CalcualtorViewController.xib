@@ -24,13 +24,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eik-V6-ibP">
-                    <rect key="frame" x="130" y="115" width="133" height="21"/>
+                    <rect key="frame" x="130" y="229" width="133" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập số thứ nhất" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nnc-Kh-pw6">
-                    <rect key="frame" x="96.666666666666686" y="166" width="200" height="34"/>
+                    <rect key="frame" x="96.666666666666686" y="280" width="200" height="34"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="200" id="8X1-KO-AaG"/>
                         <constraint firstAttribute="height" constant="34" id="fAE-UJ-1JB"/>
@@ -39,12 +39,12 @@
                     <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập số thứ hai" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gNB-ZU-SSX">
-                    <rect key="frame" x="96.666666666666686" y="230" width="200" height="34"/>
+                    <rect key="frame" x="96.666666666666686" y="344" width="200" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfc-fm-tg9">
-                    <rect key="frame" x="86.666666666666671" y="304" width="40" height="40"/>
+                    <rect key="frame" x="86.666666666666671" y="418" width="40" height="40"/>
                     <color key="backgroundColor" name="AccentColor"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
@@ -54,7 +54,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUJ-w0-yxG">
-                    <rect key="frame" x="146.66666666666666" y="304" width="40" height="40"/>
+                    <rect key="frame" x="146.66666666666666" y="418" width="40" height="40"/>
                     <color key="backgroundColor" name="AccentColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="VDa-J6-MRK"/>
@@ -68,7 +68,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1u-vQ-WJu">
-                    <rect key="frame" x="206.66666666666666" y="304" width="40" height="40"/>
+                    <rect key="frame" x="206.66666666666666" y="418" width="40" height="40"/>
                     <color key="backgroundColor" name="AccentColor"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
@@ -78,7 +78,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfA-lt-c7b">
-                    <rect key="frame" x="256.66666666666669" y="304" width="40" height="40"/>
+                    <rect key="frame" x="256.66666666666669" y="418" width="40" height="40"/>
                     <color key="backgroundColor" name="AccentColor"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
@@ -88,21 +88,31 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIJ-Z0-TwE">
-                    <rect key="frame" x="186.33333333333334" y="384" width="20.333333333333343" height="36"/>
+                    <rect key="frame" x="186.33333333333334" y="498" width="20.333333333333343" height="36"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="codetoanbug" translatesAutoresizingMaskIntoConstraints="NO" id="8rG-p1-RfC">
+                    <rect key="frame" x="146.66666666666666" y="109" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="8rG-p1-RfC" secondAttribute="height" id="CLr-Z8-8Wo"/>
+                        <constraint firstAttribute="width" constant="100" id="gEb-MI-E1k"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="rfc-fm-tg9" firstAttribute="height" secondItem="XUJ-w0-yxG" secondAttribute="height" id="01k-D1-9Bs"/>
                 <constraint firstItem="d1u-vQ-WJu" firstAttribute="leading" secondItem="XUJ-w0-yxG" secondAttribute="trailing" constant="20" id="1XD-dg-0U7"/>
+                <constraint firstItem="8rG-p1-RfC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="5Aq-mp-E9q"/>
+                <constraint firstItem="8rG-p1-RfC" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="6in-aY-BhD"/>
                 <constraint firstItem="XUJ-w0-yxG" firstAttribute="top" secondItem="gNB-ZU-SSX" secondAttribute="bottom" constant="40" id="82K-YD-yYH"/>
                 <constraint firstItem="gNB-ZU-SSX" firstAttribute="centerX" secondItem="nnc-Kh-pw6" secondAttribute="centerX" id="8ky-sG-ZDB"/>
                 <constraint firstItem="rfc-fm-tg9" firstAttribute="centerY" secondItem="XUJ-w0-yxG" secondAttribute="centerY" id="Cea-dX-yWJ"/>
                 <constraint firstItem="nnc-Kh-pw6" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="EQe-RC-TmI"/>
+                <constraint firstItem="eik-V6-ibP" firstAttribute="top" secondItem="8rG-p1-RfC" secondAttribute="bottom" constant="20" id="ESP-ab-Ft3"/>
                 <constraint firstItem="rfc-fm-tg9" firstAttribute="width" secondItem="d1u-vQ-WJu" secondAttribute="width" id="KcF-XA-Ttn"/>
                 <constraint firstItem="gNB-ZU-SSX" firstAttribute="width" secondItem="nnc-Kh-pw6" secondAttribute="width" id="Kcr-m8-2Rn"/>
                 <constraint firstItem="AIJ-Z0-TwE" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="QVD-a0-ZjX"/>
@@ -113,7 +123,6 @@
                 <constraint firstItem="nnc-Kh-pw6" firstAttribute="top" secondItem="eik-V6-ibP" secondAttribute="bottom" constant="30" id="d8G-ic-hF5"/>
                 <constraint firstItem="XUJ-w0-yxG" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" constant="-30" id="ecw-dL-3jZ"/>
                 <constraint firstItem="gNB-ZU-SSX" firstAttribute="top" secondItem="nnc-Kh-pw6" secondAttribute="bottom" constant="30" id="f6n-hx-1ej"/>
-                <constraint firstItem="eik-V6-ibP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="56" id="gI2-NU-GWK"/>
                 <constraint firstItem="rfc-fm-tg9" firstAttribute="centerY" secondItem="pfA-lt-c7b" secondAttribute="centerY" id="gxe-UT-ktd"/>
                 <constraint firstItem="rfc-fm-tg9" firstAttribute="width" secondItem="pfA-lt-c7b" secondAttribute="width" id="kBW-Od-X5K"/>
                 <constraint firstItem="eik-V6-ibP" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="lHP-CR-Y4a"/>
@@ -126,6 +135,7 @@
         </view>
     </objects>
     <resources>
+        <image name="codetoanbug" width="382" height="380"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
